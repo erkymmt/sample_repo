@@ -1,0 +1,108 @@
+{
+  "research_date": "2026-01-14",
+  "intervention": "Aspirin",
+  "indication": "慢性冠症候群 (Chronic Coronary Syndrome)",
+
+  "similar_trials": [
+    {
+      "trial_name": "AQUATIC",
+      "nct_id": "NCT04217447",
+      "design": "Double-blind, placebo-controlled, randomized trial",
+      "phase": "Phase 4",
+      "population": "CCS patients with previous coronary stent requiring long-term OAC",
+      "sample_size": "872 (planned 2000, stopped early)",
+      "intervention_arms": ["OAC + Aspirin 100mg", "OAC + Placebo"],
+      "primary_endpoint": "Composite: CV death, MI, stroke, systemic embolism, coronary revascularization, acute limb ischemia",
+      "key_findings": "Aspirin increased CV events, mortality, and major bleeding",
+      "publication": "NEJM 2025"
+    },
+    {
+      "trial_name": "COMPASS",
+      "nct_id": "NCT01776424",
+      "design": "Randomized, double-blind, parallel-group",
+      "phase": "Phase 3",
+      "population": "Stable atherosclerotic vascular disease (CAD or PAD)",
+      "sample_size": "27395",
+      "intervention_arms": ["Rivaroxaban 2.5mg BID + Aspirin 100mg", "Rivaroxaban 5mg BID", "Aspirin 100mg"],
+      "primary_endpoint": "Composite MACE: CV death, stroke, MI",
+      "key_findings": "Rivaroxaban + aspirin superior to aspirin alone",
+      "publication": "NEJM 2017"
+    },
+    {
+      "trial_name": "STOPDAPT-3",
+      "nct_id": "NCT04609800",
+      "design": "Open-label, randomized, non-inferiority",
+      "phase": "Phase 4",
+      "population": "ACS or high bleeding risk patients undergoing PCI",
+      "sample_size": "6002",
+      "intervention_arms": ["Prasugrel monotherapy", "DAPT (Aspirin + Prasugrel)"],
+      "primary_endpoint": "Co-primary: Major bleeding (BARC 3/5) and CV events",
+      "key_findings": "Prasugrel monotherapy non-inferior for CV events with less bleeding",
+      "publication": "Circulation 2024"
+    },
+    {
+      "trial_name": "ASPREE",
+      "nct_id": "NCT01038583",
+      "design": "Double-blind, placebo-controlled, randomized",
+      "phase": "Phase 4",
+      "population": "Healthy older adults ≥70 years (≥65 for US minorities)",
+      "sample_size": "19114",
+      "intervention_arms": ["Aspirin 100mg daily", "Placebo"],
+      "primary_endpoint": "Composite: Death, dementia, persistent physical disability",
+      "secondary_endpoint": "MACE (CV death, MI, stroke)",
+      "key_findings": "No MACE benefit, increased major hemorrhage (HR 1.24)",
+      "publication": "NEJM 2018, EHJ 2025 (extended follow-up)"
+    }
+  ],
+
+  "regulatory_pathway": {
+    "type": "sNDA (Supplemental New Drug Application)",
+    "rationale": "Aspirin is already FDA-approved; new indication/population study would require sNDA",
+    "key_requirements": [
+      "Phase 3 or Phase 4 randomized controlled trial",
+      "Well-defined patient population",
+      "Clinically meaningful primary endpoint (MACE)",
+      "Safety data including bleeding events"
+    ]
+  },
+
+  "study_design_recommendations": {
+    "recommended_design": "Prospective, randomized, double-blind, placebo-controlled trial",
+    "recommended_phase": "Phase 4 (post-marketing)",
+    "population_considerations": [
+      "Define CCS according to ESC/AHA guidelines",
+      "Stratify by concomitant anticoagulation use",
+      "Consider bleeding risk scores (HAS-BLED, PRECISE-DAPT)"
+    ],
+    "sample_size_range": "1000-3000 based on similar trials",
+    "follow_up_duration": "Minimum 12-24 months for CV event outcomes"
+  },
+
+  "endpoint_suggestions": {
+    "primary_efficacy": {
+      "name": "MACE (Major Adverse Cardiovascular Events)",
+      "components": ["Cardiovascular death", "Non-fatal myocardial infarction", "Non-fatal stroke"],
+      "timeframe": "Time to first event"
+    },
+    "secondary_efficacy": [
+      "All-cause mortality",
+      "Individual MACE components",
+      "Coronary revascularization",
+      "Hospitalization for unstable angina"
+    ],
+    "safety_endpoints": [
+      "Major bleeding (BARC 3-5 or ISTH criteria)",
+      "Clinically relevant non-major bleeding",
+      "Intracranial hemorrhage",
+      "Gastrointestinal bleeding"
+    ]
+  },
+
+  "key_learnings": [
+    "Recent AQUATIC trial shows aspirin may increase events in CCS+OAC patients",
+    "Bleeding risk is a critical consideration in aspirin trials",
+    "MACE composite endpoint is standard for CV outcome trials",
+    "Sample sizes of 1000-3000 typical for well-powered CV trials",
+    "Early stopping for safety is possible - need robust DSMB"
+  ]
+}

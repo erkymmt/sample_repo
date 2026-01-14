@@ -1,0 +1,10 @@
+{
+  "intervention_name": "Aspirin",
+  "intervention_type": "drug",
+  "indication": "慢性冠症候群 (Chronic Coronary Syndrome, CCS)",
+  "mechanism_of_action": "抗血小板作用による血小板凝集抑制を通じた心血管イベント（心筋梗塞、脳卒中等）の抑制",
+  "regulatory_status": "既承認薬（新規適応/用量に関する臨床試験）",
+  "initial_context": "アスピリンは既承認の抗血小板薬であり、慢性冠症候群患者における心血管イベント予防効果を検証する臨床試験プロトコルを作成する",
+  "created_at": "2026-01-14",
+  "completed_steps": ["0", "1", "2", "3", "4", "5"]
+}

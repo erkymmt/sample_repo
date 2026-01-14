@@ -1,0 +1,50 @@
+{
+  "calculation_date": "2026-01-14",
+  "primary_analysis": {
+    "scenario": "20% Relative Risk Reduction",
+    "placebo_event_rate": 0.15,
+    "aspirin_event_rate": 0.12,
+    "alpha": 0.05,
+    "power": 0.80,
+    "test_type": "two-sided",
+    "n_per_group": 2036,
+    "total_n": 4072
+  },
+  "sensitivity_analyses": [
+    {
+      "scenario": "25% Relative Risk Reduction",
+      "placebo_event_rate": 0.15,
+      "aspirin_event_rate": 0.1125,
+      "alpha": 0.05,
+      "power": 0.80,
+      "n_per_group": 1272,
+      "total_n": 2544
+    },
+    {
+      "scenario": "20% RRR with 90% Power",
+      "placebo_event_rate": 0.15,
+      "aspirin_event_rate": 0.12,
+      "alpha": 0.05,
+      "power": 0.90,
+      "n_per_group": 2726,
+      "total_n": 5452
+    }
+  ],
+  "dropout_adjustment": {
+    "expected_dropout_rate": 0.10,
+    "adjusted_n_per_group": 2263,
+    "adjusted_total_n": 4526
+  },
+  "selected_sample_size": {
+    "n_per_group": 1000,
+    "total_n": 2000,
+    "rationale": "Pragmatic sample size targeting 25% RRR detection with 80% power, consistent with similar trials (AQUATIC planned N=2000)",
+    "detectable_effect": "25% relative risk reduction (HR ~0.75)"
+  },
+  "assumptions": {
+    "endpoint": "Time to first MACE (CV death, MI, stroke)",
+    "follow_up_duration": "24 months",
+    "baseline_event_rate_source": "AQUATIC, COMPASS, literature review",
+    "allocation_ratio": "1:1"
+  }
+}
