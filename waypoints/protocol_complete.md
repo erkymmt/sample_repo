@@ -6,7 +6,7 @@
 
 ---
 
-### A Prospective, Randomized, Double-Blind, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Low-Dose Aspirin for Prevention of Major Adverse Cardiovascular Events in Patients with Chronic Coronary Syndrome
+### A Prospective, Randomized, Double-Blind, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Low-Dose Aspirin for Prevention of Major Adverse Cardiovascular Events in Patients with Angiographically Confirmed Coronary Artery Stenosis Managed Without Revascularization
 
 ## ASPIRE-CCS Trial
 
@@ -111,6 +111,14 @@ This document contains confidential information belonging to [Sponsor Name]. Thi
 | SAQ | Seattle Angina Questionnaire |
 | sNDA | Supplemental New Drug Application |
 | ULN | Upper Limit of Normal |
+| CAG | Coronary Angiography (invasive) |
+| CCTA | Coronary CT Angiography |
+| FFR | Fractional Flow Reserve |
+| iFR | Instantaneous Wave-Free Ratio |
+| QCA | Quantitative Coronary Angiography |
+| LAD | Left Anterior Descending Artery |
+| LCx | Left Circumflex Artery |
+| RCA | Right Coronary Artery |
 
 ---
 
@@ -121,7 +129,7 @@ This document contains confidential information belonging to [Sponsor Name]. Thi
 ## Section 1: Title and Protocol Information
 
 ### 1.1 Protocol Title
-**A Prospective, Randomized, Double-Blind, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Low-Dose Aspirin for Prevention of Major Adverse Cardiovascular Events in Patients with Chronic Coronary Syndrome (ASPIRE-CCS Trial)**
+**A Prospective, Randomized, Double-Blind, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Low-Dose Aspirin for Prevention of Major Adverse Cardiovascular Events in Patients with Angiographically Confirmed Coronary Artery Stenosis Managed Without Revascularization (ASPIRE-CCS Trial)**
 
 ### 1.2 Protocol Identification
 
@@ -158,7 +166,7 @@ This document contains confidential information belonging to [Sponsor Name]. Thi
 | **Title** | ASPIRE-CCS Trial |
 | **Phase** | Phase 4 (Post-marketing) |
 | **Design** | Prospective, randomized, double-blind, placebo-controlled, parallel-group, multicenter |
-| **Population** | Adults with chronic coronary syndrome (CCS) |
+| **Population** | Adults with >=50% coronary stenosis on CAG or coronary CT, managed conservatively without revascularization (including FFR/iFR-deferred cases) |
 | **Intervention** | Aspirin 100 mg once daily vs. matching placebo |
 | **Duration** | 24 months treatment + 30 days follow-up |
 | **Primary Endpoint** | Time to first MACE (composite of CV death, non-fatal MI, non-fatal stroke) |
@@ -199,7 +207,13 @@ Aspirin    Placebo
 
 ### 3.1 Scientific Rationale
 
-Chronic coronary syndrome (CCS), previously termed stable coronary artery disease, represents a significant global health burden affecting millions of patients worldwide. Despite advances in revascularization and medical therapy, patients with CCS remain at elevated risk for major adverse cardiovascular events (MACE), including myocardial infarction, stroke, and cardiovascular death.
+Chronic coronary syndrome (CCS) encompasses a heterogeneous population including patients with angiographically documented coronary artery stenosis who are managed without revascularization. This patient population includes:
+
+1. **Anatomically significant stenosis without physiological significance** - Patients with >=50% stenosis on CAG or coronary CT where FFR/iFR testing indicates no hemodynamically significant lesion (FFR >0.80, iFR >0.89)
+
+2. **Physician-determined conservative management** - Patients with documented stenosis where the treating physician determines that optimal medical therapy is preferred over revascularization based on clinical judgment, lesion characteristics, or patient preference
+
+These patients represent a unique clinical scenario: they have confirmed coronary artery disease but have not undergone PCI or CABG. The role of aspirin in this specific population remains unclear. While aspirin is generally recommended for secondary prevention in CCS, the evidence base largely derives from trials that included post-revascularization patients or mixed populations.
 
 Aspirin (acetylsalicylic acid) has been a cornerstone of antiplatelet therapy for cardiovascular prevention for decades. Its mechanism of action involves irreversible inhibition of cyclooxygenase-1 (COX-1), leading to decreased thromboxane A2 production and subsequent reduction in platelet aggregation.
 
@@ -229,12 +243,19 @@ Recent clinical trials have provided important insights into aspirin use in coro
 
 ### 3.4 Rationale for Current Study
 
-While aspirin remains guideline-recommended for secondary prevention in CCS, recent evidence raises questions about optimal patient selection and risk-benefit balance. This trial aims to:
+Patients with angiographically confirmed coronary stenosis (>=50% on CAG or coronary CT) who are managed without revascularization represent a growing clinical population due to:
+- Increased use of FFR/iFR-guided deferral strategies
+- ISCHEMIA trial results supporting conservative management in stable CAD
+- Greater availability of coronary CT angiography for diagnosis
 
-1. Evaluate aspirin efficacy for MACE prevention in a contemporary CCS population
-2. Characterize the bleeding risk profile with standardized assessment
-3. Identify patient subgroups who may derive greatest benefit or harm
-4. Inform clinical practice guidelines with rigorous randomized evidence
+However, the benefit of aspirin in this specific population is uncertain. These patients have documented anatomical CAD but may have lower event rates than post-revascularization patients. The risk-benefit balance of aspirin therapy needs clarification.
+
+**This trial aims to:**
+
+1. Determine whether aspirin provides MACE reduction in patients with >=50% coronary stenosis managed without revascularization
+2. Evaluate the net clinical benefit (efficacy vs. bleeding) in this specific population
+3. Compare outcomes between FFR/iFR-deferred patients and those managed conservatively based on clinical judgment alone
+4. Provide evidence to guide antiplatelet therapy decisions in this underrepresented patient population
 
 ---
 
@@ -242,7 +263,7 @@ While aspirin remains guideline-recommended for secondary prevention in CCS, rec
 
 ### 4.1 Primary Objective
 
-To evaluate the efficacy of low-dose aspirin (100 mg daily) compared to placebo in reducing the incidence of major adverse cardiovascular events (MACE) in patients with chronic coronary syndrome over 24 months.
+To evaluate the efficacy of low-dose aspirin (100 mg daily) compared to placebo in reducing the incidence of major adverse cardiovascular events (MACE) in patients with angiographically confirmed coronary artery stenosis (>=50% on CAG or coronary CT) who are managed without revascularization, over 24 months.
 
 ### 4.2 Secondary Objectives
 
@@ -258,13 +279,17 @@ To evaluate the efficacy of low-dose aspirin (100 mg daily) compared to placebo 
 
 ### 4.3 Exploratory Objectives
 
-1. To identify biomarkers predictive of aspirin response (platelet function testing)
+1. To compare aspirin efficacy between FFR/iFR-deferred patients and those managed conservatively based on clinical/anatomical judgment alone
 
-2. To evaluate cost-effectiveness of aspirin therapy in CCS
+2. To identify biomarkers predictive of aspirin response (platelet function testing)
 
-3. To explore genetic determinants of aspirin efficacy and safety (pharmacogenomics substudy)
+3. To evaluate cost-effectiveness of aspirin therapy in this population
 
-4. To assess the effect of aspirin on inflammatory markers (hs-CRP, IL-6)
+4. To explore genetic determinants of aspirin efficacy and safety (pharmacogenomics substudy)
+
+5. To assess the effect of aspirin on inflammatory markers (hs-CRP, IL-6)
+
+6. To evaluate outcomes by degree of stenosis severity (50-69%, 70-89%, >=90%)
 
 ---
 
@@ -287,7 +312,7 @@ This is a **prospective, randomized, double-blind, placebo-controlled, parallel-
 - **Method:** Computer-generated randomization using permuted blocks
 - **Block Size:** Variable (4, 6, 8) to maintain allocation concealment
 - **Stratification Factors:**
-  1. Prior PCI (Yes/No)
+  1. Physiological assessment performed (FFR/iFR-deferred vs. Clinical judgment only)
   2. Diabetes mellitus (Yes/No)
   3. Age (<=65 years / >65 years)
   4. Geographic region
@@ -315,68 +340,89 @@ This is a **prospective, randomized, double-blind, placebo-controlled, parallel-
 
 ### 6.1 Target Population
 
-Adults with documented chronic coronary syndrome (CCS) as defined by the 2019 ESC Guidelines and 2023 AHA/ACC Guidelines.
+Adults with angiographically documented coronary artery stenosis (>=50% diameter stenosis on invasive coronary angiography [CAG] or coronary CT angiography [CCTA]) who are managed conservatively without coronary revascularization.
 
 ### 6.2 Inclusion Criteria
 
 Participants must meet ALL of the following criteria:
 
-1. **Age:** >=18 years at screening
+**Primary Inclusion (Anatomical Documentation):**
 
-2. **Documented CCS** defined as at least ONE of the following:
-   - History of myocardial infarction (>12 months prior to screening)
-   - Prior coronary revascularization (PCI or CABG >6 months prior)
-   - Angiographic evidence of >=50% stenosis in at least one coronary artery
-   - Non-invasive evidence of myocardial ischemia (stress testing, imaging)
+1. **Age:** >=20 years at screening
 
-3. **Stable clinical status:** No acute coronary syndrome within 6 months
+2. **Documented coronary artery stenosis >=50%** on at least one of the following within 12 months prior to screening:
+   - **Invasive coronary angiography (CAG):** >=50% diameter stenosis by visual estimation or QCA in at least one major epicardial coronary artery (LAD, LCx, RCA, or major branch >=2.0 mm)
+   - **Coronary CT angiography (CCTA):** >=50% diameter stenosis in at least one major epicardial coronary artery
 
-4. **Currently NOT on aspirin therapy** or willing to undergo washout period (>=14 days)
+3. **Conservative management decision:** Physician decision NOT to perform coronary revascularization (PCI or CABG) based on one of the following:
+   - **(a) FFR/iFR-guided deferral:** Physiological assessment showing FFR >0.80 or iFR >0.89
+   - **(b) Clinical/anatomical judgment:** Physician determination that optimal medical therapy is preferred based on lesion characteristics, symptom status, patient preference, or clinical assessment (without FFR/iFR)
 
-5. **Able to provide written informed consent**
+4. **Stable clinical status:** No acute coronary syndrome (STEMI, NSTEMI, unstable angina) within 3 months of screening
 
-6. **Willing and able to comply with scheduled visits and study procedures**
+**Other Inclusion Criteria:**
+
+5. **Currently NOT on antiplatelet therapy** (aspirin, P2Y12 inhibitors) or willing to undergo washout period (>=14 days for aspirin, >=7 days for P2Y12 inhibitors)
+
+6. **Able to provide written informed consent**
+
+7. **Willing and able to comply with scheduled visits and study procedures**
 
 ### 6.3 Exclusion Criteria
 
 Participants meeting ANY of the following criteria will be excluded:
 
+**Revascularization History (Target Vessel):**
+1. Prior PCI or CABG to the vessel(s) with qualifying stenosis
+2. Planned or anticipated coronary revascularization within 6 months
+3. Left main stenosis >=50% (requires revascularization per guidelines)
+
 **Cardiovascular:**
-1. Acute coronary syndrome within 6 months of screening
-2. Planned coronary revascularization
-3. NYHA Class IV heart failure
-4. Uncontrolled hypertension (SBP >180 mmHg or DBP >110 mmHg)
+4. Acute coronary syndrome within 3 months of screening
+5. STEMI or NSTEMI requiring urgent/emergent revascularization
+6. NYHA Class IV heart failure
+7. Uncontrolled hypertension (SBP >180 mmHg or DBP >110 mmHg)
+8. Severe valvular heart disease requiring intervention
 
 **Bleeding/Coagulation:**
-5. Active pathological bleeding
-6. History of intracranial hemorrhage
-7. Known bleeding diathesis or coagulopathy
-8. Current use of oral anticoagulants (warfarin, DOACs)
-9. Platelet count <100,000/uL
-10. INR >1.5 (if not on anticoagulation)
+9. Active pathological bleeding
+10. History of intracranial hemorrhage
+11. Known bleeding diathesis or coagulopathy
+12. Current use of oral anticoagulants (warfarin, DOACs) - Note: patients requiring OAC are excluded
+13. Platelet count <100,000/uL
+14. INR >1.5 (if not on anticoagulation)
 
 **Contraindications to Aspirin:**
-11. Known hypersensitivity to aspirin or NSAIDs
-12. History of aspirin-exacerbated respiratory disease
-13. Active peptic ulcer disease or GI bleeding within 6 months
+15. Known hypersensitivity to aspirin or NSAIDs
+16. History of aspirin-exacerbated respiratory disease
+17. Active peptic ulcer disease or GI bleeding within 6 months
 
 **General:**
-14. Severe hepatic impairment (Child-Pugh C)
-15. Severe renal impairment (eGFR <30 mL/min/1.73m2)
-16. Active malignancy requiring systemic therapy
-17. Life expectancy <24 months
-18. Current pregnancy or breastfeeding
-19. Participation in another interventional clinical trial within 30 days
-20. Any condition that, in investigator's judgment, would compromise safety or compliance
+18. Severe hepatic impairment (Child-Pugh C)
+19. Severe renal impairment (eGFR <30 mL/min/1.73m2)
+20. Active malignancy requiring systemic therapy
+21. Life expectancy <24 months
+22. Current pregnancy or breastfeeding
+23. Participation in another interventional clinical trial within 30 days
+24. Any condition that, in investigator's judgment, would compromise safety or compliance
 
-### 6.4 Target Enrollment
+### 6.4 Classification of Patients
+
+Enrolled patients will be classified into two strata at randomization:
+
+| Stratum | Definition | Expected % |
+|---------|------------|------------|
+| **FFR/iFR-Deferred** | Stenosis >=50% with FFR >0.80 or iFR >0.89 documented | ~40% |
+| **Clinical Judgment** | Stenosis >=50% managed conservatively without physiological assessment | ~60% |
+
+### 6.5 Target Enrollment
 
 - **Total Participants:** 2,000
 - **Per Arm:** 1,000
 - **Number of Sites:** Approximately 50-80 sites
-- **Geographic Distribution:** Multinational (North America, Europe, Asia-Pacific)
+- **Geographic Distribution:** Multinational (North America, Europe, Asia-Pacific, Japan)
 
-### 6.5 Withdrawal Criteria
+### 6.6 Withdrawal Criteria
 
 Participants may be withdrawn from study treatment for:
 - Participant request

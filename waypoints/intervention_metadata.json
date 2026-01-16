@@ -1,10 +1,19 @@
 {
   "intervention_name": "Aspirin",
   "intervention_type": "drug",
-  "indication": "慢性冠症候群 (Chronic Coronary Syndrome, CCS)",
+  "indication": "CAG/冠動脈CTで50%以上の狭窄が確認された慢性冠症候群（血行再建術未施行、FFR/iFR deferを含む）",
   "mechanism_of_action": "抗血小板作用による血小板凝集抑制を通じた心血管イベント（心筋梗塞、脳卒中等）の抑制",
-  "regulatory_status": "既承認薬（新規適応/用量に関する臨床試験）",
-  "initial_context": "アスピリンは既承認の抗血小板薬であり、慢性冠症候群患者における心血管イベント予防効果を検証する臨床試験プロトコルを作成する",
+  "regulatory_status": "既承認薬（特定患者集団における有効性検証）",
+  "initial_context": "CAGまたは冠動脈CTで50%以上の冠動脈狭窄が確認されたが、医師の判断（画像所見のみ、またはFFR/iFRでdeferした症例を含む）により血行再建術を行わなかった患者に対するアスピリンの心血管イベント抑制効果を検証する",
+  "target_population": {
+    "anatomical_criteria": "CAGまたは冠動脈CTで50%以上の冠動脈狭窄",
+    "management": "血行再建術（PCI/CABG）未施行",
+    "subtypes": [
+      "FFR/iFR評価でdefer（FFR>0.80, iFR>0.89）",
+      "臨床的/解剖学的判断で保存的治療選択"
+    ]
+  },
   "created_at": "2026-01-14",
+  "updated_at": "2026-01-16",
   "completed_steps": ["0", "1", "2", "3", "4", "5"]
 }
